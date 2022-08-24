@@ -1,6 +1,6 @@
 import datetime
 print("current date and time: ",datetime.datetime.now())
-print("current year: ",datetime.date.today().strftime("%Y"))
+print("current year: ",datetime.date.today().strftime("%Y"))                #strf=stringformat
 print("Month  of the year : ",datetime.date.today().strftime("%B"))
 print("Week number of the year: ",datetime.date.today().strftime("%W"))
 print("weekday of the week: ",datetime.date.today().strftime("%w"))
